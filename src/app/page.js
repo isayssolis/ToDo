@@ -1,9 +1,9 @@
 "use client";
 import {useContext} from "react";
 import TareasContext from "../context/tareas";
-import Card from "../components/card";
 import React from "react";
 import Link from "next/link";
+import Card from "../components/card";
 
 export default function Home() {
     const {tareas} = useContext(TareasContext);

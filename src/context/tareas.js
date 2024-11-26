@@ -7,8 +7,8 @@ function Provider ({children}){
     const [tareas, setTareas] = useState([]);
     const [id, setId] = useState(0);
     const shareTareas = {
-        id,
-        tareas,
+        id:id,
+        tareas:tareas,
         agregarTarea: (newTarea)=>{
             setTareas([...tareas, newTarea]);
             setId((id+1))
