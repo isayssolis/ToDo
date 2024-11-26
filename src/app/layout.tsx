@@ -1,8 +1,8 @@
 "use client";
 import localFont from "next/font/local";
 import "./globals.css";
-import {Provider} from "@/context/tareas";
-import Header from "@/components/header";
+import {Provider} from "../context/tareas";
+import Header from "../components/header";
 import React from "react";
 
 const geistSans = localFont({
