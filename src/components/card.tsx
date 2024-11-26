@@ -1,6 +1,6 @@
 "use client";
 import React, {useContext, useState} from "react";
-import TareasContext from "@/context/tareas";
+import TareasContext from "../context/tareas";
 
 export default function Card ({tarea}){
     const {eliminarTarea, editarTarea} = useContext(TareasContext);

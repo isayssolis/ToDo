@@ -1,6 +1,6 @@
 "use client";
 import {useContext} from "react";
-import TareasContext from "@/context/tareas";
+import TareasContext from "../context/tareas";
 import Card from "../components/card";
 import React from "react";
 import Link from "next/link";
